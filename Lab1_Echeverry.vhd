@@ -29,33 +29,34 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity Lab1_Echeverry is
-    Port ( A : in  STD_LOGIC;
-           B : in  STD_LOGIC;
-           C : in  STD_LOGIC;
-           X : out  STD_LOGIC;
-           Y : out  STD_LOGIC;
-           Z : out  STD_LOGIC);
-end Lab1_Echeverry;
-
-architecture Behavioral of Lab1_Echeverry is
-
-signal A_Not, B_Not, C_Not, E, F, H, I, J, K, L, M : STD_logic;
-
-begin
-
-C<=Z;
-A_Not<=not A;
-B_Not<=not B;
-C_Not<=not C;
-E<=A and B_Not;
-F<=A and B_Not and C_Not;
-H<=F or H;
-I<=A_Not and (B or C);
-J<=B or C;
-K<=M or L;
-L<=B and C_NOT;
-M<=B_Not and C;
-
-end Behavioral;
+--entity Lab1_Echeverry is
+--    Port ( A : in  STD_LOGIC;
+--           B : in  STD_LOGIC;
+--           C : in  STD_LOGIC;
+--           X : out  STD_LOGIC;
+--           Y : out  STD_LOGIC;
+--           Z : out  STD_LOGIC);
+--end Lab1_Echeverry;
+--
+--architecture Behavioral of Lab1_Echeverry is
+--
+--signal A_Not, B_Not, C_Not, E, F, H, I, J, K, L, M : STD_logic;
+--
+--begin
+--
+--A_Not<=not A;
+--B_Not<=not B;
+--C_Not<=not C;
+--E<=A and B_Not;
+--F<=E and C_Not;
+--H<=F or I;
+--I<=A_Not and J;
+--J<=B or C;
+--K<=M or L;
+--L<=B and C_NOT;
+--M<=B_Not and C;
+--X<=H;
+--Y<=K;
+--Z<=C;
+--end Behavioral;
 
