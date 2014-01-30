@@ -27,10 +27,5 @@ I ran into an issue on the first iteration for creating the .ucf file because i 
 #Testing
 For purposes of being accurate, I compared my circuit side by side with my truth table. The switches SWO (designated as input C), SW1 (input B), and SW2 (input A) were used. The outputs that were used were the 3 led lights LD2 (X), LD1 (Y), and LD0 (Z). Starting at 0 0 0 for three inputs all of the lights were off. moving down the truth table when C was on, three LED lights were also on. Each iteration of the truth table was then checked for correctness.
 
-#Final Schematic
-My final schematic was based on the 3 bit converter to 2's complement. 
-
-[need to upload my picture]
-
 #Analysis and conclusion
-The expected inputs matched the expected outputs of the LED lights coming on. We systematically broke down the coding structure in this lab from the behavioral, to the architetcure, and finally to the .ucf file. Upon completion of the last, we uploaded the constraints file to the Nexy's 2 chip and we systematically checked for correctness when compared against the original truth table.
+The expected inputs matched the expected outputs of the LED lights coming on. We systematically broke down the coding structure in this lab from the behavioral, to the architetcure, and finally to the .ucf file. Upon completion of the last, we uploaded the constraints file to the Nexy's 2 chip and we systematically checked for correctness when compared against the original truth table. During this lab I learned how work with the xilinx program more in depth and how to successfully program a computer chip.
